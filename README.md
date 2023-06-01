@@ -42,7 +42,7 @@ Basic usage of this module is as follows:
 ```hcl
 module "secured_data_warehouse" {
   source  = "terraform-google-modules/secured-data-warehouse/google"
-  version = "~> 0.1"
+  version = "~> 0.3"
 
   org_id                           = ORG_ID
   data_governance_project_id       = DATA_GOVERNANCE_PROJECT_ID
